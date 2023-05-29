@@ -103,9 +103,6 @@ img {
 
 .menu-link-active {
     display: block;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
@@ -130,6 +127,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+
 }
 
 .header-menu__link:hover,
