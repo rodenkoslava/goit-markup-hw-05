@@ -104,6 +104,7 @@ img {
 .thumb {
     position: relative;
     color: #404bbf;
+
 }
 
 .thumb::after {
