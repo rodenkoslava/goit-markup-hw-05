@@ -105,7 +105,6 @@ img {
     display: block;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #404bbf;
 }
 
 .menu-link-active::after {
@@ -118,6 +117,7 @@ img {
     background-color: #404bbf;
     border-radius: 2px;
     display: block;
+    color: #404bbf;
 }
 
 .header-menu__link {
