@@ -211,6 +211,12 @@ img {
     margin: auto;
 }
 
+.modal-open {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
