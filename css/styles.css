@@ -514,8 +514,8 @@ img {
     border-top: none;
 }
 
-.portfolio-list__item:hover,
-.portfolio-list__item:focus {
+.portfolio-list__item-wrapper:hover,
+.portfolio-list__item-wrapper:focus {
     transform: translateY(0%);
 }
 
