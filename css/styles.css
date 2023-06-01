@@ -283,7 +283,7 @@ img {
 
 .close-icon:hover,
 .close-icon:focus {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .is-hidden {
