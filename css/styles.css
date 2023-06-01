@@ -240,13 +240,13 @@ img {
 }
 
 .modal {
-    width: 300px;
-    height: 250px;
+    width: 408px;
+    min-height: 584px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
+    background: #fcfcfc;
 }
 
 .close-button {
