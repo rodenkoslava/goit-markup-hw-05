@@ -254,18 +254,28 @@ img {
 
 .close-button {
     position: absolute;
-    right: 10px;
-    top: 10px;
-    background-color: grey;
+    right: 24px;
+    top: 24px;
+    background-color: #e7e9fc;
     color: white;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.close-button:hover,
 .close-button:hover {
-    background-color: #ff6c00;
+    background-color: #404bbf;
+    border: none;
 }
 
 .is-hidden {
