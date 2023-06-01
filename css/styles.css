@@ -221,7 +221,6 @@ img {
     left: 50%;
     border: none;
     font-size: 16px;
-    position: fixed;
 }
 
 .open-modal:hover {
