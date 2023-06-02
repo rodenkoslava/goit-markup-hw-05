@@ -504,6 +504,11 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
 .portfolio-list-link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
