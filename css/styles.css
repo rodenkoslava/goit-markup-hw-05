@@ -125,8 +125,7 @@ img {
     opacity: 0;
 }
 
-.header-menu__link:hover::after,
-.header-menu__link:focus::after,
+
 .header-menu__link.current::after {
     opacity: 1;
 }
@@ -218,9 +217,7 @@ img {
     border: none;
 }
 
-.open-modal:hover {
-    opacity: 0.8;
-}
+.open-modal:hover {}
 
 .backdrop {
     position: fixed;
